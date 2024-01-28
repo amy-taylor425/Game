@@ -24,7 +24,7 @@
             initialize(numPlayers) {
                 this.numPlayers = numPlayers;
                 this.players = [];
-                for (let i = 0; i < numPlayers; i++) {
+                for (let i = 1; i < numPlayers + 1; i++) {
                     this.players.push(new Player(i));
                 }
                 this.currentPlayer = 0;
